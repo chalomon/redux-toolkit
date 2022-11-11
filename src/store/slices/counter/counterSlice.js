@@ -18,7 +18,7 @@ export const counterSlice = createSlice({
       state.counter -= 1;
     },
 
-    incrementBy: (state, action) => {
+    incrementBy: (state, action) => { //El action recibe el parámetro que se envía desde que se inicializa el incrementBy
       state.counter += action.payload;
       
     }
